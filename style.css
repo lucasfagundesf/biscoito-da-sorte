@@ -55,7 +55,7 @@ p{
 #luck{
     margin: auto;
     font-family: var(--font3);
-    width: 29.3rem;
+    width: min(29.3rem, 88%);
     background-color: var(--cor2);
     margin-bottom: 4rem;
 
@@ -64,6 +64,9 @@ p{
 
     box-shadow: .2rem .2rem .2rem rgba(85, 85, 85, 0.5);
     animation: aumentar 2.5s;
+}
+img{
+    width: min(30rem, 88%);
 }
 #cookieClose{
     margin-bottom: 6.4rem;
